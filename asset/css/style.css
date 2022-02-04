@@ -1,0 +1,91 @@
+/*Reset*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*body*/
+body{
+    margin: 10px 0;
+}
+/*main*/
+main{
+    margin: 20px 0;
+
+   
+}
+/*header*/
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: violet;
+    margin-top: 30px;
+}
+
+.section1{
+    background-color: rgb(212, 212, 93);
+    width: 100%;
+    height: 500px;
+
+}
+
+.b-color{
+    background-color: rgb(75, 75, 255);
+    width: 100%;
+    height: 750px;
+    margin-top: 30px;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.c-blue{
+    background-color: rgb(154, 198, 255);
+    height: 100px;
+    width: 100%;
+    float: left;
+}
+
+
+.blue-sinistra{
+    background-color: rgb(154, 198, 255);
+    height: 600px;
+    width: 15%;
+    float: left;
+    margin: 30px 0 0 ;
+
+}
+
+.blue-centrale{
+    background-color: rgb(154, 198, 255);
+    height: 600px;
+    width: 67%;
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+
+.blue-destra{
+
+    background-color: rgb(154, 198, 255);
+    height: 600px;
+    width: 15%;
+    float: left;
+    margin-top: 30px;
+    margin-left: 26px;
+    margin-right: 0px;
+    
+
+}
+
+.footer{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(177, 0, 247);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
